@@ -1,5 +1,15 @@
-//for
-/*var resposta = ''
+/**
+ * Utilizando o for
+ * Para números de 0 a 20 (incluindo o zero e o vinte), imprima as mensagens conforme
+ * as seguintes regras:
+ *  Se o número for par, imprima "O número x é par";
+ *  Se o número for divísivel por 3, imprima "O número x é divisível por 3"
+ *  Mas caso o número seja par e divisível por 3, imprima "O número é par e também 
+ * divisível por 3"
+ *
+ */
+
+var resposta = ''
 
 for(atual=0; atual<=20; atual++){
     resposta = ''
@@ -21,20 +31,26 @@ for(atual=0; atual<=20; atual++){
     if (resposta != ''){
         console.log(atual + resposta)
     }        
-}*/
+}
 
-// while
+/**
+ * Utilizando o while
+ * Para números de 15 a 10 (incluindo o quinze e o dez), imprima mensagens conforme 
+ * as seguintes regras:
+ * Se o número for divisível por 5, imprima "OK"
+ * Do contrario, imprima "Não OK"
+ */
 
-/*var regra = 10
-while(regra <= 15){
+var regra = 15
+while(regra >= 10){
     if (regra%5 == 0){
         console.log(regra + ' Ok')
     } else {
         console.log(regra + ' Não Ok')
     }
-    regra++
-}*/
-
+    regra--
+}
+/*
 // Forech
 
 var primeiraLista = [0, 8, 5, 6, 2]
@@ -47,7 +63,7 @@ console.log(segundaLista.length)
 
 for()
 
-/*if (primeiraLista > segundaLista){
+if (primeiraLista > segundaLista){
     console.log('A soma é: ' + soma)
 }else {
     console.log(subtracao)
